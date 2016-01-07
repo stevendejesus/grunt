@@ -1,8 +1,210 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+.clear {
+    clear: both;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif; 
+    fomt-size: 16px;
+    line-height: 20px;
+}
+
+.hero-image {
+    background: url(../img/hero.jpg) center center fixed;
+    width: auto;
+    height: 1066px;
+    color: #fff;
+}
+
+.hero-image {
+    background: url(../img/hero.jpg) center center fixed;
+    width: auto;
+    height: 1066px;
+}
+
+header h1 {
+    text-indent: -9999px;
+} 
+
+.hero-image header ul li {
+    display: inline-block;
+    margin: 0 0 0 50px;
+}
+
+.hero-image header ul li a {
+    color: inherit;
+    font-size: 16px;
+}
+
+.hero-image h1, .hero-image p {
+    text-align: center;
+} 
+
+#first-p {
+    font-size: 55px;
+    line-height: 60px;
+    padding: 150px 0 75px 0;
+    font-weight: 300;
+    color: #c48282;
+}
+
+.hero-image h1 {
+    font-size: 55px;
+    line-height: 60px;
+    font-weight: 400;
+    padding: 0 0 50px 0;
+    text-transform: uppercase;
+}
+
+#second-p {
+    font-size: 16px;
+    line-height: 24px;  
+}
+
+.learn-more {
+    display: block;
+    text-align: center;
+    padding: 10px 50px;
+    background: #1a1a1a;
+    border-radius: 35px;
+    color: inherit;
+    width: 200px;
+    margin: 80px auto 0;
+    transition: 1s ease;
+}
+
+.learn-more:hover {
+    color: green;
+}
+
+#call-to-action {
+    background: #1a1a1a;
+    height: 180px;
+    text-align: center;
+    color: #fff;
+    padding: 70px 0 0 0;
+    font-weight: 300;
+}
+
+#call-to-action p {
+    display: inline-block;
+}
+
+#call-to-action a {
+    display: inline-block;
+}
+
+.the-platform {
+    font-weight: 600;
+    text-align: center;
+}
+
+.the-platform h1 {
+    padding: 160px 0 20px 0;
+    font-size: 25px;
+}
+
+.the-platform p {
+    padding-bottom: 80px;
+}
+
+span {
+    font-weight: 300;
+}
+
+.save-money {
+    background: url('../img/save-money.png') top left;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 306px;
+    margin-bottom: 235px;
+}
+
+.line {
+    background: url('../img/line.png') center center;
+    background-repeat: no-repeat;
+    width: 37px;
+    height: 1103px;
+    margin: 0 auto;
+}
+
 .box {
-  color: #fe33ac;
-  border-color: #fdcdea;
+    background: url('../img/box.png') top left;
+    background-repeat: no-repeat;   
+    width: 412px;
+    height: 340px;
+    margin: 360px 0 200px 0;
 }
-.box div {
-  -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+
+.satelite {
+    background: url('../img/satelite.png') top left;
+    background-repeat: no-repeat;   
+    width: 462px;
+    height: 442px;
+    margin-top: 300px;
 }
+
+.red-background {
+    background: url('../img/red-background.png') center center fixed;
+    background-size: cover;
+    width: auto;
+    height: 961px;
+    margin-top: 160px;
+    padding-top: 210px; 
+}
+
+
+
+
+
+
+
+
